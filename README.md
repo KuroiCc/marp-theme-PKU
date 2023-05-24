@@ -1,3 +1,15 @@
+# Marp Theme PKU_AGU
+北京大学の方が作ったテンプレを青学の社情風にアレンジしたものです。
+
+# サンプル
+![](assets/AGUSimple/1.png)
+![](assets/AGUSimple/2.png)
+![](assets/AGUSimple/3.png)
+
+<br/>
+
+**original description follows below**
+
 # Marp Theme PKU
 <h2 style='font-weight:bold; color:#0187d0;'>
 为习惯使用Markdown的你提供优雅的摆烂方案

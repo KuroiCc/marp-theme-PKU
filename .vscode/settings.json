@@ -1,7 +1,12 @@
 {
-    "markdown.marp.themes": [
-      "./themes/PKUSimple.css",
-      "./themes/PKUMag.css",
-    ],
-    "markdown.marp.enableHtml": true
+  "markdown.marp.themes": [
+    "./themes/PKUSimple.css",
+    "./themes/PKUMag.css",
+    "./themes/PKUSimple_AGU.css",
+  ],
+  "markdown.marp.enableHtml": true,
+  "cSpell.words": [
+    "marp",
+    "mathjax"
+  ]
 }

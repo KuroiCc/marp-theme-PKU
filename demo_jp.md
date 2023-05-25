@@ -41,6 +41,10 @@ _paginate: false
 #### h4 タイトル4
 ##### h5 タイトル5
 ###### h6 タイトル6
+
+
+---
+<!-- _header: headerでタイトルを追加-->
 Normal
 **Bold**
 
@@ -65,12 +69,6 @@ Normal
 ---
 <!-- _header: コード-->
 # コードブロック
-## Python
-```python
-import torch
-print(torch.cuda.is_available())
-```
-
 ## C++
 ```C++
 #include <iostream>
@@ -78,6 +76,13 @@ using namespace std;
 int main() {
     cout << "Hello world" << endl;
 }
+```
+---
+<!-- _header: コード-->
+## Python
+```python
+import torch
+print(torch.cuda.is_available())
 ```
 
 # インラインコード
@@ -127,7 +132,7 @@ _class: split
 
 ## Column 1
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eveniet, corporis commodi vitae accusamus obcaecati dolor corrupti eaque id numquam officia velit sapiente incidunt dolores provident laboriosam praesentium nobis culpa.
+Voluptas eveniet, corporis commodi vitae accusamus obcaecati dolor corrupti eaque id numquam officia velit sapiente incidunt dolores provident laboriosam praesentium nobis culpa.
 
 </div>
 
@@ -135,7 +140,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eveniet, corpo
 
 ## Column 2
 
-Tempore ad exercitationem necessitatibus nulla, optio distinctio illo non similique? Laborum dolor odio, ipsam incidunt corrupti quia nemo quo exercitationem adipisci quidem nesciunt deserunt repellendus inventore deleniti reprehenderit at earum.
+optio distinctio illo non similique? Laborum dolor odio, ipsam incidunt corrupti quia nemo quo exercitationem adipisci quidem nesciunt deserunt repellendus inventore deleniti reprehenderit at earum.
 
 </div>
 </div>

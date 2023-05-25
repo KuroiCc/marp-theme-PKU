@@ -10,12 +10,24 @@
   --color-background: #fff;
   --color-foreground: #333;
   --color-highlight: #2177fc;
+  --font-size-xxxs: 16px;
+  --font-size-xxs: 18px;
+  --font-size-xs: 24px;
+  --font-size-s: 28px;
+  --font-size-base: 32px;
+  --font-size-l: 36px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 44px;
+  --font-size-xxxl: 48px;
+  --font-size-xxxxl: 52px;
 }
+
 section {
-  font-size: 24px;
+  font-size: var(--font-size-l);
+  /* old 24px */
   padding-left: 50px;
   text-align: left;
-  font-family: 'Microsoft YaHei';
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   background: var(--color-background);
   padding-top: 140px;
   color: black;
@@ -23,14 +35,16 @@ section {
 
 h1 {
   color: var(--color-pku);
-  font-size: 36px;
+  font-size: var(--font-size-xxxl);
+  /* old 36px */
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: var(--font-size-xxl);
+  /* old 32px */
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -39,7 +53,8 @@ h2 {
 h3 {
   text-align: left;
   font-weight: bold;
-  font-size: 28px;
+  font-size: var(--font-size-xl);
+  /* old 28px */
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -48,7 +63,7 @@ h3 {
 h4 {
   text-align: left;
   font-weight: bold;
-  font-size: 24px;
+  font-size: var(--font-size-l);
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -56,21 +71,21 @@ h4 {
 
 h5 {
   text-align: left;
-  font-size: 24px;
+  font-size: var(--font-size-l);
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'KaiTi';
+  font-family: "KaiTi SC";
   font-weight: bold;
 }
 
 h6 {
   text-align: left;
-  font-size: 24px;
+  font-size: var(--font-size-l);
   text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'KaiTi';
+  font-family: "KaiTi SC";
   font-weight: normal;
 }
 
@@ -90,13 +105,14 @@ header {
   text-align: left;
   color: var(--color-pku);
   font-weight: bold;
-  font-size: 48px;
+  font-size: var(--font-size-xxxxl);
+  /* old 48px */
 
   border-bottom: var(--color-pku) 2px solid;
 }
 
 footer {
-  font-size: 16px;
+  font-size: var(--font-size-xxs);
   text-align: left;
   position: absolute;
   color: gray;
@@ -111,7 +127,7 @@ footer {
 
 /* formatting page numbers*/
 section::after {
-  font-size: 40pt;
+  font-size: var(--font-size-xxxxl);
   /* color:darkgray; */
   margin-bottom: 13px;
   font-weight: 600;
@@ -126,7 +142,12 @@ img[alt~='center'] {
 }
 
 ul {
-  font-size: 24px;
+  font-size: var(--font-size-l);
+}
+
+/* ol,li嵌套的时候字体变小 */
+ul ul {
+  font-size: var(--font-size-s);
 }
 
 /* 代码块 */
@@ -135,11 +156,14 @@ code {
   background-color: rgba(100, 100, 100, 0.1);
   color: red;
 }
+
 pre {
   background-color: #333;
+  margin-bottom: 30px;
 }
+
 pre code {
-  font-size: 14pt;
+  font-size: var(--font-size-xs);
   color: lightyellow;
 }
 
@@ -159,6 +183,7 @@ blockquote {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 blockquote::after {
   content: ' ';
 }
@@ -177,31 +202,37 @@ section.title {
   /* background-color: aquamarine; */
   padding-top: 250px;
 }
+
 section.title h1 {
   color: var(--color-pku);
   text-align: left;
   font-size: 72px;
-  font-family: 'Microsoft YaHei';
+  /* 表紙 */
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   max-width: 85%;
 }
+
 section.title h2 {
+  font-size: var(--font-size-base);
   text-align: left;
-  font-family: 'Microsoft YaHei';
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
 section.title h3 {
+  font-size: var(--font-size-base);
   text-align: left;
   position: fixed;
   top: 75%;
-  font-family: 'Microsoft YaHei';
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   color: whitesmoke;
 }
 
 section.title h4 {
+  font-size: var(--font-size-xs);
   text-align: left;
   position: fixed;
   top: 85%;
-  font-family: 'Microsoft YaHei';
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   color: whitesmoke;
   font-style: normal;
 }
@@ -222,20 +253,24 @@ section.content {
 section.content h1 {
   color: var(--color-pku);
   text-align: left;
-  font-size: 40pt;
-  font-family: 'Microsoft YaHei';
+  font-size: 60px;
+  /* 目次 */
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  margin-top: -65px;
   padding-top: 0px;
 }
+
 section.content h2 {
   color: var(--color-pku);
   text-align: left;
-  font-size: 20pt;
-  font-family: 'Microsoft YaHei';
+  font-size: var(--font-size-base);
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
+
 section.content h3 {
   text-align: left;
-  font-size: 24pt;
-  font-family: 'Microsoft YaHei';
+  font-size: var(--font-size-l);
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
   padding-left: 10px;
@@ -262,8 +297,9 @@ section.chapter h1 {
   font-weight: normal;
   vertical-align: center;
   margin-top: 13.5%;
-  font-size: 60pt;
-  font-family: 'Microsoft YaHei';
+  font-size: 80px;
+  /* 章タイトル */
+  font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
 section.chapter h1 strong {

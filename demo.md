@@ -112,8 +112,8 @@ $$
 <!-- _header: 图片-->
 >**命令换行时图片换行**
 
-![img h:130px](images/PKUlogo_long.png) ![img w:200px](images/kenkyu_woman_seikou.png)
-![img w:200px](images/kenkyu_woman_seikou.png)
+![img h:130px](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/PKUlogo_long.png) ![img w:200px](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/kenkyu_woman_seikou.png)
+![img w:200px](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/kenkyu_woman_seikou.png)
 
 ---
 <!--
@@ -147,7 +147,7 @@ _class: split
 # 不等分
 <div class=columns style="grid-template-columns: 30% 70%">
   <div>
-    <img src="./images/sample_thss_img.png" width=100% >
+    <img src="https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/sample_thss_img.png" width=100% >
   </div>
   <div>
 
@@ -162,7 +162,7 @@ _class: split
 </div>
 
 ---
-![bg right contain](./images/sample_thss_img.png)
+![bg right contain](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/sample_thss_img.png)
 # 分栏2
 当然也可以直接使用bg的方式来对图片进行分栏
 在这样的情况下可能无法使用header

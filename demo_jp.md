@@ -118,8 +118,8 @@ $$
 <!-- _header: 画像-->
 >**コマンドが改行されると、画像も改行されます**
 
-![img h:130px](images/PKUlogo_long_aogaku.svg) ![img w:200px](images/kenkyu_woman_seikou.png)
-![img w:200px](images/kenkyu_woman_seikou.png)
+![img h:130px](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/PKUlogo_long_aogaku.svg) ![img w:200px](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/kenkyu_woman_seikou.png)
+![img w:200px](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/kenkyu_woman_seikou.png)
 
 ---
 <!--
@@ -153,7 +153,7 @@ _class: split
 # 等分じゃない
 <div class=columns style="grid-template-columns: 30% 70%">
   <div>
-    <img src="./images/sample_thss_img.png" width=100% >
+    <img src="https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/sample_thss_img.png" width=100% >
   </div>
   <div>
 
@@ -167,7 +167,7 @@ _class: split
 </div>
 
 ---
-![bg right contain](./images/sample_thss_img.png)
+![bg right contain](https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/sample_thss_img.png)
 # 段組み2
 直接bgを使って画像と文字を分割することももちろんできます
 この場合、headerを使用できない可能性があります

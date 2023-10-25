@@ -98,7 +98,7 @@ header {
   right: 50px;
   top: 30px;
   height: 80px;
-  background-image: url('./images/PKUlogo_long_aogaku.svg');
+  background-image: url('https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/PKUlogo_long_aogaku.svg');
   background-position: right top;
   background-repeat: no-repeat;
   background-size: 200px;
@@ -150,6 +150,10 @@ ul ul {
   font-size: var(--font-size-s);
 }
 
+ol ul {
+  font-size: var(--font-size-s);
+}
+
 /* 代码块 */
 code {
   font-family: 'Source Code Pro', monospace;
@@ -195,7 +199,7 @@ blockquote::before {
 /** 页面模版 **/
 /* Section title */
 section.title {
-  background-image: url('./images/PKUSimple_title_bg_aogaku.png');
+  background-image: url('https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/PKUSimple_title_bg_aogaku.png');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -243,7 +247,7 @@ section.title p {
 
 /* Content Page */
 section.content {
-  background-image: url('./images/PKUSimple_content_bg_aogaku.png');
+  background-image: url('https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/PKUSimple_content_bg_aogaku.png');
   background-size: 50% 100%;
   background-position: right;
   background-repeat: no-repeat;
@@ -284,7 +288,7 @@ section.content h3 strong {
 
 /* Chapter Page */
 section.chapter {
-  background-image: url('./images/PKUSimple_chapter_bg_aogaku.png');
+  background-image: url('https://raw.githubusercontent.com/KuroiCc/marp-theme-PKU/master/images/PKUSimple_chapter_bg_aogaku.png');
   background-size: 100% 25%;
   background-position: center;
   background-repeat: no-repeat;
